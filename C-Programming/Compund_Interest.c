@@ -25,5 +25,6 @@ int main()
 
 printf("Totalinterest=%.2lf\n",TA); printf("Compoundinterest=%.2lf",C);
 }
+
     return 0;
 }
