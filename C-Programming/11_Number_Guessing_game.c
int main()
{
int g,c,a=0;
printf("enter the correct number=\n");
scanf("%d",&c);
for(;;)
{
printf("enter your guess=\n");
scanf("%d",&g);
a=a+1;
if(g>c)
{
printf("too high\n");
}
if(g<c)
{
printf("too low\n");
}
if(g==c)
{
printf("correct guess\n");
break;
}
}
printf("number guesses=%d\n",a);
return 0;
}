@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int g,c,a=0;
+printf("enter correct number=\n");
+scanf("%d",&c);
+for(;;)
+{
+printf("enter your guess=\n");
+scanf("%d",&g);
+a=a+1;
+if(g>c)
+{
+printf("too high\n");
+}
+if(g<c)
+{
+printf("too low\n");
+}
+if(g==c)
+{
+printf("correct guess\n");
+break;
+}
+}
+printf("number guesses=%d\n",a);
+return 0;
+}
